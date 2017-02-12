@@ -1,0 +1,36 @@
+This is an elevator control system that support multiple elevators and multiple goal floors.
+
+To run the this elevator control system:
+run the ElevatorControlSystem.py, enter instructions to control it.
+
+Usage:
+    First initial the number of elevators and number of floors
+    For behavior instruction:
+        enter nothing and return, it will perform one step.
+        enter 'p, direction, current_floor, target_floor' format will simulate a passenger use elevator
+        direction is 0 for going up, 1 for going down
+    Example:
+        To simulate a passenger from floor2 to floor7
+        Enter behavior: p,0,2,7
+        To simulate a passenger from floor6 to floor2
+        Enter behavior: p,1,6,2
+    Output:
+        The output will give detail information for every elevator
+
+Architecture:
+This program contain three class: ElevatorControlSystem(ECS), Elevator and People.
+When someone need to take a elevator, first create a instance of this people, and then call ECS to
+ pick up this people. When ECS get this request, it will ask all elevators if anyone will pickup this
+ passenger, if every elevator is busy then the passenger is added to waitlist and will be checked in
+ future. However if some elevators response to it, the nearest elevator will be choosen and ECS will
+ notify the corresponding elevator to pick up at that floor.
+ Every round, the elevator will do some action like people get in and get out. Then it move. Finally
+ the ECS will check waitlist to see if anyone can have a elevator to pick them up.
+
+ For the Elevator class, it can print its current status and move towards the target_floor.
+ It use a dict to keep record of every one's destination and running directions.
+ If an elevator is found query floor is on its way, or it's idle now, then it response to ECS it can
+ pick up. When it's notified to pickup someone at certain floor, it will calculate the target floors.
+ When it reach certain floor on the target list, it will let people get in and get out.
+
+

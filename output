@@ -1,0 +1,100 @@
+C:\MyProgram\ProgramFilesProgramming\Anaconda2\python.exe "C:\MyProgram\ProgramFilesProgramming\JetBrains\PyCharm 2016.3.2\helpers\pydev\pydevd.py" --multiproc --qt-support --client 127.0.0.1 --port 31129 --file E:/project/Elevator_Control_System/ElevatorControlSystem.py
+pydev debugger: process 18812 is connecting
+
+Connected to pydev debugger (build 163.10154.50)
+init elevator_0
+init elevator_1
+This is elevator_0 at floor 1, go to 1, STATE:STATE_IDLE
+This is elevator_1 at floor 1, go to 1, STATE:STATE_IDLE
+Enter behavior: p,0,2,3
+I wanna go from 2 to 3, direction is STATE_MVUP.
+This is elevator_0 at floor 1, go to 2, STATE:STATE_MVUP
+This is elevator_1 at floor 1, go to 1, STATE:STATE_IDLE
+Enter behavior:
+This is elevator_0 at floor 2, go to 2, STATE:STATE_MVUP
+This is elevator_1 at floor 1, go to 1, STATE:STATE_IDLE
+Enter behavior:
+This is elevator_0 at floor 3, go to 3, STATE:STATE_MVUP
+This is elevator_1 at floor 1, go to 1, STATE:STATE_IDLE
+Enter behavior:
+This is elevator_0 at floor 3, go to 3, STATE:STATE_IDLE
+This is elevator_1 at floor 1, go to 1, STATE:STATE_IDLE
+Enter behavior: p,0,2,6
+I wanna go from 2 to 6, direction is STATE_MVUP.
+This is elevator_0 at floor 3, go to 2, STATE:STATE_MVDN
+This is elevator_1 at floor 1, go to 1, STATE:STATE_IDLE
+Enter behavior:
+This is elevator_0 at floor 2, go to 2, STATE:STATE_MVDN
+This is elevator_1 at floor 1, go to 1, STATE:STATE_IDLE
+Enter behavior:
+This is elevator_0 at floor 3, go to 6, STATE:STATE_MVUP
+This is elevator_1 at floor 1, go to 1, STATE:STATE_IDLE
+Enter behavior:
+This is elevator_0 at floor 4, go to 6, STATE:STATE_MVUP
+This is elevator_1 at floor 1, go to 1, STATE:STATE_IDLE
+Enter behavior:
+This is elevator_0 at floor 5, go to 6, STATE:STATE_MVUP
+This is elevator_1 at floor 1, go to 1, STATE:STATE_IDLE
+Enter behavior:
+This is elevator_0 at floor 6, go to 6, STATE:STATE_MVUP
+This is elevator_1 at floor 1, go to 1, STATE:STATE_IDLE
+Enter behavior:
+This is elevator_0 at floor 6, go to 6, STATE:STATE_IDLE
+This is elevator_1 at floor 1, go to 1, STATE:STATE_IDLE
+Enter behavior: p,0,2,3
+I wanna go from 2 to 3, direction is STATE_MVUP.
+This is elevator_0 at floor 6, go to 6, STATE:STATE_IDLE
+This is elevator_1 at floor 1, go to 2, STATE:STATE_MVUP
+Enter behavior:
+This is elevator_0 at floor 6, go to 6, STATE:STATE_IDLE
+This is elevator_1 at floor 2, go to 2, STATE:STATE_MVUP
+Enter behavior:
+This is elevator_0 at floor 6, go to 6, STATE:STATE_IDLE
+This is elevator_1 at floor 3, go to 3, STATE:STATE_MVUP
+Enter behavior:
+This is elevator_0 at floor 6, go to 6, STATE:STATE_IDLE
+This is elevator_1 at floor 3, go to 3, STATE:STATE_IDLE
+Enter behavior: p,1,4,2
+I wanna go from 4 to 2, direction is STATE_MVDN.
+This is elevator_0 at floor 6, go to 6, STATE:STATE_IDLE
+This is elevator_1 at floor 3, go to 4, STATE:STATE_MVUP
+Enter behavior:
+This is elevator_0 at floor 6, go to 6, STATE:STATE_IDLE
+This is elevator_1 at floor 4, go to 4, STATE:STATE_MVUP
+Enter behavior:
+This is elevator_0 at floor 6, go to 6, STATE:STATE_IDLE
+This is elevator_1 at floor 3, go to 2, STATE:STATE_MVDN
+Enter behavior:
+This is elevator_0 at floor 6, go to 6, STATE:STATE_IDLE
+This is elevator_1 at floor 2, go to 2, STATE:STATE_MVDN
+Enter behavior:
+This is elevator_0 at floor 6, go to 6, STATE:STATE_IDLE
+This is elevator_1 at floor 2, go to 2, STATE:STATE_IDLE
+Enter behavior: p,1,5,1
+I wanna go from 5 to 1, direction is STATE_MVDN.
+This is elevator_0 at floor 6, go to 5, STATE:STATE_MVDN
+This is elevator_1 at floor 2, go to 2, STATE:STATE_IDLE
+Enter behavior: p,0,2,3
+I wanna go from 2 to 3, direction is STATE_MVUP.
+This is elevator_0 at floor 6, go to 5, STATE:STATE_MVDN
+This is elevator_1 at floor 2, go to 2, STATE:STATE_MVUP
+Enter behavior:
+This is elevator_0 at floor 5, go to 5, STATE:STATE_MVDN
+This is elevator_1 at floor 3, go to 3, STATE:STATE_MVUP
+Enter behavior:
+This is elevator_0 at floor 4, go to 1, STATE:STATE_MVDN
+This is elevator_1 at floor 3, go to 3, STATE:STATE_IDLE
+Enter behavior:
+This is elevator_0 at floor 3, go to 1, STATE:STATE_MVDN
+This is elevator_1 at floor 3, go to 3, STATE:STATE_IDLE
+Enter behavior:
+This is elevator_0 at floor 2, go to 1, STATE:STATE_MVDN
+This is elevator_1 at floor 3, go to 3, STATE:STATE_IDLE
+Enter behavior:
+This is elevator_0 at floor 1, go to 1, STATE:STATE_MVDN
+This is elevator_1 at floor 3, go to 3, STATE:STATE_IDLE
+Enter behavior:
+This is elevator_0 at floor 1, go to 1, STATE:STATE_IDLE
+This is elevator_1 at floor 3, go to 3, STATE:STATE_IDLE
+Enter behavior:
+Process finished with exit code 1
