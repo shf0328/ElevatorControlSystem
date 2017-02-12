@@ -16,7 +16,7 @@ Usage:
         Enter behavior: p,1,6,2
     Output:
         The output will give detail information for every elevator.
-		And one example output is list in /output file
+        And one example output is list in /output file
 
 Architecture:
 This program contain three class: ElevatorControlSystem(ECS), Elevator and People.
