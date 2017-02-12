@@ -15,7 +15,8 @@ Usage:
         To simulate a passenger from floor6 to floor2
         Enter behavior: p,1,6,2
     Output:
-        The output will give detail information for every elevator
+        The output will give detail information for every elevator.
+		And one example output is list in /output file
 
 Architecture:
 This program contain three class: ElevatorControlSystem(ECS), Elevator and People.
